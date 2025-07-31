@@ -61,7 +61,7 @@ A Chart is a Helm package. It contains all of the resource definitions necessary
 - `verify` (Boolean) Verify the package before installing it.Defaults to `false`.
 - `version` (String) Specify the exact chart version to install. If this is not specified, the latest version is installed.
 - `wait` (Boolean) Will wait until all resources are in a ready state before marking the release as successful. Defaults to `true`.
-- `wait_for_jobs` (Boolean) If wait is enabled, will wait until all Jobs have been completed before marking the release as successful. Defaults to `false``.
+- `wait_for_jobs` (Boolean) If wait is enabled, will wait until all Jobs have been completed before marking the release as successful. Defaults to `false`.
 
 ### Read-Only
 
